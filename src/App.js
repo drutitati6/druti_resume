@@ -1,9 +1,9 @@
 import React from 'react';
-import './Resume.css';
+import './App.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faEnvelope, faFlag } from '@fortawesome/free-solid-svg-icons';
 import { faGithub } from '@fortawesome/free-brands-svg-icons';
-function resume() {
+function App() {
   return (
     <div className="container">
       <header>
@@ -99,4 +99,4 @@ function resume() {
   );
 }
 
-export default resume;
+export default App;
